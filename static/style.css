@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins
+
+
+}
+
+body {     
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 50vh;
+            flex-direction: column;
+            color: white;
+            background-image: url(https://intake.education/sites/default/files/f13839829d628436ee261d3a977293413805de5b.jpg);
+            background-size: cover;
+          
+            
+            
+        }
+img { 
+    width: 450px;
+    margin-bottom: 20px;
+   
+}
+input[type=text] { font-size: 20px; padding: 5px; border-radius: 15px;  border: solid white 5px;   margin-left: 80px; font-family:'Times New Roman'
+}
+input[type=submit] { 
+    background: rgb(209, 9, 9); 
+    color: white; 
+    font-size: 20px; padding: 8px;
+    border-radius: 15px;
+    border-color: rgb(209, 9, 9);
+    background-origin: padding-box;
+    
+    
+}
+
+h2 {
+   
+    margin-left: 70px;
+    margin-bottom: 10px;
+    color: white;
+    font-family:poppins, monospace
+}
+
+
+#results {
+    text-align: left;
+    width: 800px;
+    border: solid white 1px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+}
+
+h1 { 
+    margin-left: 50px;
+    color: black;
+    text-align: center;
+}
+
+p { 
+    margin-left: 10px;
+    color: black;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 10px;
+}
+ 
+label {
+
+    text-align: left;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white
+}
